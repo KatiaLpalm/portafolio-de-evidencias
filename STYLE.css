@@ -1,0 +1,128 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background: rgb(243, 243, 234);
+
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    padding: 2rem;
+    background-color: rgba(255, 0, 255, 0.527);
+}
+
+.hero-imagen-estudiante {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid rgba(0, 183, 255, 0.507);
+}
+
+.hero {
+    background-color: rgb(255, 255, 255);
+    min-height: 450px;
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+}
+
+
+
+/* METADATAS */
+@media screen and (max-width:767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+}
+
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 10px 0;
+    font-family: "Press Start 2P", system-ui;
+    
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: black;
+
+}
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: "Shrikand", serif;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.columna {
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #3ae0d5;
+    background-color: #e02369;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia .columna:hover {
+    color: rgb(46, 239, 25);
+    background-color: #cd3a48;
+
+}
+.proyectos-recientes{
+    padding: 40px;
+}
+.seccion-descripcion{
+    font-size: 1.2 rem;
+    
+}
